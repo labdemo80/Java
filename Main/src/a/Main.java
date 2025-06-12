@@ -13,6 +13,13 @@ class SBI extends Bank{
 	}
 }
 
+class HDFC extends Bank{
+	@Override
+	float getRateOfInterest() {
+		return 7.9f;
+	}
+}
+
 public class Main {
 	public static void main(String[] args) {
 		Bank b;
